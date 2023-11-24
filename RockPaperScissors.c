@@ -33,7 +33,7 @@ int main()
         if(choice == 'Y')
             gameplay();
         if(choice != 'Y' && choice != 'N')
-            puts("Invalid choice!");
+            printf("\tInvalid choice!");
     } while(choice != 'N');
 
     printf("\tSee you next time! ");
